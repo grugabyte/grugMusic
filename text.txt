@@ -1,0 +1,9 @@
+##CONFIGURATION FILE##
+
+operating system {
+	arch
+}
+
+album covers {
+	no
+}

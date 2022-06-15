@@ -1,0 +1,2 @@
+14/06/2022 - project is created with a simple install script
+15/06/2022 - added a basic configuration file and mac support
