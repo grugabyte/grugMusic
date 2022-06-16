@@ -7,7 +7,7 @@ conf="text.txt"
 
 while [ $fnc == 0 ];
 do
-	echo "Select your operating system or press 'l' to list the options"
+	echo -e "\e[1;34mSelect your operating system or press 'l' to list the options\e[0m"
 	read var
 	
 	if [ $var == "debian" ];
@@ -60,4 +60,3 @@ done
 chmod +x playlist01.sh
 chmod +x playlist02.sh
 
-echo "installed"
