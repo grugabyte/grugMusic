@@ -18,7 +18,8 @@ while read -r line; do
 		mpv --no-video "https://www.youtube.com/watch?v=U9-f4Mosb_A"	# Maroon 5 - Sunday Morning
 		echo "Now Playing: Guy Sebastian - Who's That Girl"
 		mpv --no-video "https://www.youtube.com/watch?v=ip2mwfG83KE"	# Guy Sebastian - Who's That Girl
-		echo "Rihanna - FourFiveSeconds"mpv --no-video "https://www.youtube.com/watch?v=kt0g4dWxEBo"	# Rihanna - FourFiveSeconds
+		echo "Rihanna - FourFiveSeconds"
+		mpv --no-video "https://www.youtube.com/watch?v=kt0g4dWxEBo"	# Rihanna - FourFiveSeconds
 
 	elif [[ $line == *"yes"* ]]; then
 
@@ -32,7 +33,8 @@ while read -r line; do
                 mpv "https://www.youtube.com/watch?v=U9-f4Mosb_A"    # Maroon 5 - Sunday Morning
                 echo "Now Playing: Guy Sebastian - Who's That Girl"
                 mpv "https://www.youtube.com/watch?v=ip2mwfG83KE"    # Guy Sebastian - Who's That Girl
-                echo "Rihanna - FourFiveSeconds"mpv --no-video "https://www.youtube.com/watch?v=kt0g4dWxEBo"    # Rihanna - FourFiveSeconds
+                echo "Rihanna - FourFiveSeconds"
+		mpv --no-video "https://www.youtube.com/watch?v=kt0g4dWxEBo"    # Rihanna - FourFiveSeconds
 	fi
 done < $file
 

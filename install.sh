@@ -58,5 +58,6 @@ do
 done
 
 chmod +x playlist01.sh
+chmod +x playlist02.sh
 
 echo "installed"
