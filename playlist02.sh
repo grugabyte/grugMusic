@@ -53,6 +53,13 @@ while read -r line; do
 		mpv --no-video 'https://www.youtube.com/watch?v=iHW95x9HnY0'
 		mpv --no-video 'https://www.youtube.com/watch?v=jUjd6DHAutU'
 		mpv --no-video 'https://www.youtube.com/watch?v=nwLz_PJEiVE'
+#
+		mpv --no-video 'https://www.youtube.com/watch?v=q1avmXtq0C0'
+		mpv --no-video 'https://www.youtube.com/watch?v=AwlkfJHtmVk'
+		mpv --no-video 'https://www.youtube.com/watch?v=Y4EE_aO7-1w'
+		mpv --no-video 'https://www.youtube.com/watch?v=zIKS_U5lRL0'
+		mpv --no-video 'https://www.youtube.com/watch?v=CEP6ta5SF8I'
+		mpv --no-video 'https://www.youtube.com/watch?v=VFPhEn6ifV0'
 
 	elif [[ $line == *"yes"* ]]; then
 		
@@ -101,6 +108,13 @@ while read -r line; do
                 mpv 'https://www.youtube.com/watch?v=iHW95x9HnY0'
                 mpv 'https://www.youtube.com/watch?v=jUjd6DHAutU'
                 mpv 'https://www.youtube.com/watch?v=nwLz_PJEiVE'
+
+		mpv 'https://www.youtube.com/watch?v=q1avmXtq0C0'
+                mpv 'https://www.youtube.com/watch?v=AwlkfJHtmVk'
+                mpv 'https://www.youtube.com/watch?v=Y4EE_aO7-1w'
+                mpv 'https://www.youtube.com/watch?v=zIKS_U5lRL0'
+                mpv 'https://www.youtube.com/watch?v=CEP6ta5SF8I'
+                mpv 'https://www.youtube.com/watch?v=VFPhEn6ifV0'
 	fi
 done < $file
 
